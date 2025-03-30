@@ -38,6 +38,7 @@
 
     section#login div#imagem {
         background-image: url(../imagens/pexels-efrem-efre-p.jpg);
+        float: left;
     }
     section#login div#formulario {
         width: 55%;
@@ -51,9 +52,19 @@
     }
     section#login div#imagem {
         background-image: url(../imagens/pexels-efrem-efre-m.jpg);
+        float: right;
     }
     section#login div#formulario {
         width: 55%;
+    }
+    div#formulario h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    div#formulario p {
+        font-size: 1.2em;
+        text-align: center;
     }
 
  }
@@ -69,6 +80,8 @@
     section#login div#formulario {
         width: 55%;
     }
+    
+
 
 
  } 
@@ -76,7 +89,7 @@
 
  @media only screen and (min-width: 4000px) {
     section#login {
-        width: 4000px;
+        width: 2000px;
     }
     section#login div#imagem {
         background: var(--color1) url(../imagens/pexels-efrem-efre-gg.jpg);
